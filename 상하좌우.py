@@ -6,7 +6,7 @@ x, y = 1
 dx = [-1,1,0,0]
 dy = [0,0,-1,1]
 # 이거해설이 잘못된 것 같다. lrud와 매칭이 안된다. 내가 이해를 못한건가?
-move = ['L','R','U','D']
+move = ['L','R','D','U']
 
 for going in go:
     for i in range(len(move)):
