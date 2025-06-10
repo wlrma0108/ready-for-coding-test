@@ -10,6 +10,7 @@ for ste in step:
     nextr = row + step[0]
     nextc = column + step[1]
     # 다른 방법 없나?
-    if ???
+    if ???:
+        
 
 print(result)
