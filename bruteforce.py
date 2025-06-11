@@ -8,3 +8,10 @@ for i in range(2, N+1):
     parent[i] = (i-2)//K + 1
 
 print("각 노드의 부모:", parent)
+
+def get_path_to_root(x, parent):
+    path = []
+    while x != 0:
+        path.append(x)
+        x = parent[x]
+    return path  # (자기자신~루트)
